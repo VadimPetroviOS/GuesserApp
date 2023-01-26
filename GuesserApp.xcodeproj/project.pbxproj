@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D211DBC29826DA8002C8063 /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DBB29826DA8002C8063 /* SolutionViewController.swift */; };
+		7D211DBE29827499002C8063 /* SolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DBD29827499002C8063 /* SolutionView.swift */; };
+		7DD9DFDB298158DA00E3FD40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDA298158DA00E3FD40 /* AppDelegate.swift */; };
+		7DD9DFDD298158DA00E3FD40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDC298158DA00E3FD40 /* SceneDelegate.swift */; };
+		7DD9DFDF298158DA00E3FD40 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDE298158DA00E3FD40 /* StartGameViewController.swift */; };
+		7DD9DFE4298158E200E3FD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD9DFE3298158E200E3FD40 /* Assets.xcassets */; };
+		7DD9DFE7298158E200E3FD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD9DFE5298158E200E3FD40 /* LaunchScreen.storyboard */; };
+		7DD9DFF12981599900E3FD40 /* StartGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFF02981599900E3FD40 /* StartGameView.swift */; };
+		7DD9DFF429815CF100E3FD40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFF329815CF100E3FD40 /* Constants.swift */; };
+		7DD9DFF62981611C00E3FD40 /* MysteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFF52981611C00E3FD40 /* MysteryViewController.swift */; };
+		7DD9DFF929816AA600E3FD40 /* MysteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFF829816AA600E3FD40 /* MysteryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D211DBB29826DA8002C8063 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
+		7D211DBD29827499002C8063 /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
+		7DD9DFD7298158DA00E3FD40 /* GuesserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuesserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD9DFDA298158DA00E3FD40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DD9DFDC298158DA00E3FD40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DD9DFDE298158DA00E3FD40 /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		7DD9DFE3298158E200E3FD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DD9DFE6298158E200E3FD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DD9DFE8298158E200E3FD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD9DFF02981599900E3FD40 /* StartGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameView.swift; sourceTree = "<group>"; };
+		7DD9DFF329815CF100E3FD40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7DD9DFF52981611C00E3FD40 /* MysteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryViewController.swift; sourceTree = "<group>"; };
+		7DD9DFF829816AA600E3FD40 /* MysteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DD9DFD4298158DA00E3FD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D211DBF298274A2002C8063 /* SolutionView */ = {
+			isa = PBXGroup;
+			children = (
+				7D211DBB29826DA8002C8063 /* SolutionViewController.swift */,
+				7D211DBD29827499002C8063 /* SolutionView.swift */,
+			);
+			path = SolutionView;
+			sourceTree = "<group>";
+		};
+		7DD9DFCE298158DA00E3FD40 = {
+			isa = PBXGroup;
+			children = (
+				7DD9DFD9298158DA00E3FD40 /* GuesserApp */,
+				7DD9DFD8298158DA00E3FD40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD9DFD8298158DA00E3FD40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9DFD7298158DA00E3FD40 /* GuesserApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD9DFD9298158DA00E3FD40 /* GuesserApp */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9DFEF2981591300E3FD40 /* Application */,
+				7D211DBF298274A2002C8063 /* SolutionView */,
+				7DD9DFF729816A8C00E3FD40 /* MysteryView */,
+				7DD9DFF2298159A500E3FD40 /* StartGameView */,
+				7DD9DFF329815CF100E3FD40 /* Constants.swift */,
+				7DD9DFEE298158F500E3FD40 /* Resources */,
+			);
+			path = GuesserApp;
+			sourceTree = "<group>";
+		};
+		7DD9DFEE298158F500E3FD40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9DFE8298158E200E3FD40 /* Info.plist */,
+				7DD9DFE5298158E200E3FD40 /* LaunchScreen.storyboard */,
+				7DD9DFE3298158E200E3FD40 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DD9DFEF2981591300E3FD40 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9DFDA298158DA00E3FD40 /* AppDelegate.swift */,
+				7DD9DFDC298158DA00E3FD40 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7DD9DFF2298159A500E3FD40 /* StartGameView */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9DFDE298158DA00E3FD40 /* StartGameViewController.swift */,
+				7DD9DFF02981599900E3FD40 /* StartGameView.swift */,
+			);
+			path = StartGameView;
+			sourceTree = "<group>";
+		};
+		7DD9DFF729816A8C00E3FD40 /* MysteryView */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9DFF52981611C00E3FD40 /* MysteryViewController.swift */,
+				7DD9DFF829816AA600E3FD40 /* MysteryView.swift */,
+			);
+			path = MysteryView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DD9DFD6298158DA00E3FD40 /* GuesserApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD9DFEB298158E200E3FD40 /* Build configuration list for PBXNativeTarget "GuesserApp" */;
+			buildPhases = (
+				7DD9DFD3298158DA00E3FD40 /* Sources */,
+				7DD9DFD4298158DA00E3FD40 /* Frameworks */,
+				7DD9DFD5298158DA00E3FD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuesserApp;
+			productName = GuesserApp;
+			productReference = 7DD9DFD7298158DA00E3FD40 /* GuesserApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DD9DFCF298158DA00E3FD40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7DD9DFD6298158DA00E3FD40 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DD9DFD2298158DA00E3FD40 /* Build configuration list for PBXProject "GuesserApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DD9DFCE298158DA00E3FD40;
+			productRefGroup = 7DD9DFD8298158DA00E3FD40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DD9DFD6298158DA00E3FD40 /* GuesserApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DD9DFD5298158DA00E3FD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD9DFE7298158E200E3FD40 /* LaunchScreen.storyboard in Resources */,
+				7DD9DFE4298158E200E3FD40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DD9DFD3298158DA00E3FD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD9DFF62981611C00E3FD40 /* MysteryViewController.swift in Sources */,
+				7DD9DFF429815CF100E3FD40 /* Constants.swift in Sources */,
+				7DD9DFF929816AA600E3FD40 /* MysteryView.swift in Sources */,
+				7D211DBC29826DA8002C8063 /* SolutionViewController.swift in Sources */,
+				7DD9DFDF298158DA00E3FD40 /* StartGameViewController.swift in Sources */,
+				7DD9DFDB298158DA00E3FD40 /* AppDelegate.swift in Sources */,
+				7DD9DFDD298158DA00E3FD40 /* SceneDelegate.swift in Sources */,
+				7D211DBE29827499002C8063 /* SolutionView.swift in Sources */,
+				7DD9DFF12981599900E3FD40 /* StartGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DD9DFE5298158E200E3FD40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD9DFE6298158E200E3FD40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DD9DFE9298158E200E3FD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DD9DFEA298158E200E3FD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DD9DFEC298158E200E3FD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q584Y8R5N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuesserApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = v.GuesserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DD9DFED298158E200E3FD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q584Y8R5N9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuesserApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = v.GuesserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DD9DFD2298158DA00E3FD40 /* Build configuration list for PBXProject "GuesserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD9DFE9298158E200E3FD40 /* Debug */,
+				7DD9DFEA298158E200E3FD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD9DFEB298158E200E3FD40 /* Build configuration list for PBXNativeTarget "GuesserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD9DFEC298158E200E3FD40 /* Debug */,
+				7DD9DFED298158E200E3FD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DD9DFCF298158DA00E3FD40 /* Project object */;
+}
