@@ -93,6 +93,6 @@ final class MysteryView: UIView {
 private struct MysteryViewConstants {
     static let textViewInsets: CGFloat = 100
     static let buttonInsets: CGFloat = 50
-    static let labelInsets: CGFloat = 50
+    static let labelInsets: CGFloat = 20
     static let textViewHeight: CGFloat = 35
 }

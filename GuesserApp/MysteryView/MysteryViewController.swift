@@ -43,7 +43,7 @@ extension MysteryViewController: MysteryViewControllerDelegate {
         if number == 0 || number > 100 {
             view().errorLabel.isHidden = false
         } else {
-            self.view.window?.rootViewController = UINavigationController(rootViewController: SolutionViewController(number: number))
+            self.view.window?.rootViewController = UINavigationController(rootViewController: CompSolutionViewController(number: number))
         }
     }   
 }

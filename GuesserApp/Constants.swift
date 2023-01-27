@@ -13,4 +13,17 @@ struct Constants {
         static let weight: CGFloat = 300
         static let height: CGFloat = 50
     }
+    
+    struct Errors {
+        static let firstTry: String = "Why're you lying?"
+        static let secondTry: String = "Seriously???"
+        static let moreTry: String = "ignore..."
+    }
+    
+    struct Value {
+        static let leftNumber: Int = 1
+        static let rightNumber: Int = 100
+        static let tryCounter: Int = 1
+        static let countError: Int = 0
+    }
 }
