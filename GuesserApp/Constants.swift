@@ -26,4 +26,10 @@ struct Constants {
         static let tryCounter: Int = 1
         static let countError: Int = 0
     }
+    
+    struct gameStatus {
+        static let win: String = "Yot Win"
+        static let lose: String = "You Lose"
+        static let draw: String = "It's a Draw"
+    }
 }
