@@ -123,16 +123,16 @@ final class CompSolutionView: UIView {
             stack.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             stack.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
             
-            computerGuessLabel.centerYAnchor.constraint(equalTo: topContainerView.centerYAnchor, constant: -CompSolutionViewConstants.buttonInsets),
+            computerGuessLabel.centerYAnchor.constraint(equalTo: topContainerView.centerYAnchor, constant: -CompSolutionViewConstants.insets),
             computerGuessLabel.centerXAnchor.constraint(equalTo: topContainerView.centerXAnchor),
             tryCounterLabel.centerXAnchor.constraint(equalTo: topContainerView.centerXAnchor),
-            tryCounterLabel.bottomAnchor.constraint(equalTo: computerGuessLabel.topAnchor,constant: -CompSolutionViewConstants.buttonInsets),
+            tryCounterLabel.bottomAnchor.constraint(equalTo: computerGuessLabel.topAnchor,constant: -CompSolutionViewConstants.insets),
             
             computerNumberLabel.bottomAnchor.constraint(equalTo: topContainerView.bottomAnchor),
             computerNumberLabel.centerXAnchor.constraint(equalTo: topContainerView.centerXAnchor),
             buttonStack.centerXAnchor.constraint(equalTo: bottomContainerView.centerXAnchor),
             buttonStack.centerYAnchor.constraint(equalTo: bottomContainerView.centerYAnchor),
-            myNumberLabel.bottomAnchor.constraint(equalTo: buttonStack.topAnchor, constant: -CompSolutionViewConstants.buttonInsets),
+            myNumberLabel.bottomAnchor.constraint(equalTo: buttonStack.topAnchor, constant: -CompSolutionViewConstants.insets),
             myNumberLabel.leadingAnchor.constraint(equalTo: buttonStack.leadingAnchor),
             
             lessButton.widthAnchor.constraint(equalToConstant: CompSolutionViewConstants.buttonWidth),
@@ -182,7 +182,7 @@ final class CompSolutionView: UIView {
 }
 
 private struct CompSolutionViewConstants {
-    static let buttonInsets: CGFloat = 20
+    static let insets: CGFloat = 20
     static let buttonWidth: CGFloat = 60
     static let buttonHeight: CGFloat = 60
     static let errorInsets: CGFloat = 60

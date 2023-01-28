@@ -52,9 +52,10 @@ final class CompSolutionViewController: UIViewController {
     }
     
     private func nextRound() {
-        let seconds = 1.0
+        let seconds = 1.5
         DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
-            self.view.window?.rootViewController = UINavigationController(rootViewController: UserSolutionViewController())
+            self.view.window?.rootViewController = UINavigationController(rootViewController:
+                                                                            UserSolutionViewController(compScore: self.tryCounter))
         }
     }
     
