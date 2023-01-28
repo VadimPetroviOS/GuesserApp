@@ -69,7 +69,9 @@ extension UserSolutionViewController: UserSolutionViewControllerDelegate {
             view().answerLabel.text = "Yes, my number is \(compNumber)"
             let seconds = 1.5
             DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
-                //self.view.window?.rootViewController = UINavigationController(rootViewController: UserSolutionViewController())
+                self.view.window?.rootViewController = UINavigationController(
+                    rootViewController: GameResultViewController(compScore: self.compScore, userScore: self.tryCounter)
+                )
             }
         }
         
