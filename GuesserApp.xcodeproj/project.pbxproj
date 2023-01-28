@@ -10,6 +10,8 @@
 		7D211DBC29826DA8002C8063 /* CompSolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DBB29826DA8002C8063 /* CompSolutionViewController.swift */; };
 		7D211DBE29827499002C8063 /* CompSolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DBD29827499002C8063 /* CompSolutionView.swift */; };
 		7D211DC12983D72D002C8063 /* UserSolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DC02983D72D002C8063 /* UserSolutionViewController.swift */; };
+		7D211DC32985357E002C8063 /* UserSolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DC22985357E002C8063 /* UserSolutionView.swift */; };
+		7D211DC8298559A2002C8063 /* ResultGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DC7298559A2002C8063 /* ResultGameViewController.swift */; };
 		7DD9DFDB298158DA00E3FD40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDA298158DA00E3FD40 /* AppDelegate.swift */; };
 		7DD9DFDD298158DA00E3FD40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDC298158DA00E3FD40 /* SceneDelegate.swift */; };
 		7DD9DFDF298158DA00E3FD40 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDE298158DA00E3FD40 /* StartGameViewController.swift */; };
@@ -25,6 +27,8 @@
 		7D211DBB29826DA8002C8063 /* CompSolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompSolutionViewController.swift; sourceTree = "<group>"; };
 		7D211DBD29827499002C8063 /* CompSolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompSolutionView.swift; sourceTree = "<group>"; };
 		7D211DC02983D72D002C8063 /* UserSolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSolutionViewController.swift; sourceTree = "<group>"; };
+		7D211DC22985357E002C8063 /* UserSolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSolutionView.swift; sourceTree = "<group>"; };
+		7D211DC7298559A2002C8063 /* ResultGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultGameViewController.swift; sourceTree = "<group>"; };
 		7DD9DFD7298158DA00E3FD40 /* GuesserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuesserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD9DFDA298158DA00E3FD40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD9DFDC298158DA00E3FD40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 			path = CompSolutionView;
 			sourceTree = "<group>";
 		};
+		7D211DC629855172002C8063 /* UserSolutionView */ = {
+			isa = PBXGroup;
+			children = (
+				7D211DC02983D72D002C8063 /* UserSolutionViewController.swift */,
+				7D211DC22985357E002C8063 /* UserSolutionView.swift */,
+			);
+			path = UserSolutionView;
+			sourceTree = "<group>";
+		};
 		7DD9DFCE298158DA00E3FD40 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				7DD9DFEF2981591300E3FD40 /* Application */,
-				7D211DC02983D72D002C8063 /* UserSolutionViewController.swift */,
+				7D211DC7298559A2002C8063 /* ResultGameViewController.swift */,
+				7D211DC629855172002C8063 /* UserSolutionView */,
 				7D211DBF298274A2002C8063 /* CompSolutionView */,
 				7DD9DFF729816A8C00E3FD40 /* MysteryView */,
 				7DD9DFF2298159A500E3FD40 /* StartGameView */,
@@ -198,9 +212,11 @@
 				7DD9DFF62981611C00E3FD40 /* MysteryViewController.swift in Sources */,
 				7DD9DFF429815CF100E3FD40 /* Constants.swift in Sources */,
 				7DD9DFF929816AA600E3FD40 /* MysteryView.swift in Sources */,
+				7D211DC32985357E002C8063 /* UserSolutionView.swift in Sources */,
 				7D211DBC29826DA8002C8063 /* CompSolutionViewController.swift in Sources */,
 				7DD9DFDF298158DA00E3FD40 /* StartGameViewController.swift in Sources */,
 				7DD9DFDB298158DA00E3FD40 /* AppDelegate.swift in Sources */,
+				7D211DC8298559A2002C8063 /* ResultGameViewController.swift in Sources */,
 				7D211DC12983D72D002C8063 /* UserSolutionViewController.swift in Sources */,
 				7DD9DFDD298158DA00E3FD40 /* SceneDelegate.swift in Sources */,
 				7D211DBE29827499002C8063 /* CompSolutionView.swift in Sources */,
