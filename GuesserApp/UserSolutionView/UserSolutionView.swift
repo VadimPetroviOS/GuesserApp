@@ -73,6 +73,15 @@ final class UserSolutionView: UIView {
         return label
     }()
     
+    let errorLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "Please enter number [1:100]"
+        label.textColor = .systemRed
+        label.isHidden = true
+        return label
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .white
@@ -81,7 +90,7 @@ final class UserSolutionView: UIView {
     
     private func setConstraints() {
         let stack = createStackView()
-        [stack, tryCounterLabel, computerGuessLabel, numberGuessTV, guessButton, answerLabel].forEach {addSubview($0)}
+        [stack, tryCounterLabel, computerGuessLabel, numberGuessTV, guessButton, answerLabel, errorLabel].forEach {addSubview($0)}
         
         NSLayoutConstraint.activate([
             stack.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
@@ -91,7 +100,7 @@ final class UserSolutionView: UIView {
             
             tryCounterLabel.centerXAnchor.constraint(equalTo: topContainerView.centerXAnchor),
             tryCounterLabel.centerYAnchor.constraint(equalTo: topContainerView.centerYAnchor, constant: -UserSolutionViewConstants.insets),
-            computerGuessLabel.topAnchor.constraint(equalTo: tryCounterLabel.topAnchor, constant: UserSolutionViewConstants.insets),
+            computerGuessLabel.topAnchor.constraint(equalTo: tryCounterLabel.topAnchor, constant: UserSolutionViewConstants.insets*2),
             computerGuessLabel.centerXAnchor.constraint(equalTo: tryCounterLabel.centerXAnchor),
             
             numberGuessTV.topAnchor.constraint(equalTo: middleContainerView.topAnchor, constant: UserSolutionViewConstants.insets/2),
@@ -106,6 +115,9 @@ final class UserSolutionView: UIView {
             
             answerLabel.topAnchor.constraint(equalTo: bottomContainerView.topAnchor, constant: UserSolutionViewConstants.insets),
             answerLabel.centerXAnchor.constraint(equalTo: bottomContainerView.centerXAnchor),
+            // nenen
+            errorLabel.topAnchor.constraint(equalTo: numberGuessTV.bottomAnchor, constant: UserSolutionViewConstants.insets),
+            errorLabel.centerXAnchor.constraint(equalTo: numberGuessTV.centerXAnchor)
         ])
     }
     

@@ -38,9 +38,9 @@ final class GameResultViewController: UIViewController {
     }
     
     private func setStatusGame() {
-        if userScore > compScore {
+        if userScore < compScore {
             view().gameStatusLabel.text = Constants.gameStatus.win
-        } else if userScore < compScore {
+        } else if userScore > compScore {
             view().gameStatusLabel.text = Constants.gameStatus.lose
         } else {
             view().gameStatusLabel.text = Constants.gameStatus.draw

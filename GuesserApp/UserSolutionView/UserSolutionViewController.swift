@@ -46,19 +46,7 @@ final class UserSolutionViewController: UIViewController {
         compNumber = Int.random(in: leftNumber...rightNumber)
     }
     
-    init(compScore: Int) {
-        self.compScore = compScore
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError()
-    }
-}
-
-extension UserSolutionViewController: UserSolutionViewControllerDelegate {
-    func buttonAction() {
-        guard let userNumber = Int(view().numberGuessTV.text) else { return }
+    private func gameLogics(_ userNumber: Int, _ compNumber: Int) {
         if userNumber < compNumber {
             view().answerLabel.text = "No, my number is greater than yours"
             tryCounter += 1
@@ -74,8 +62,28 @@ extension UserSolutionViewController: UserSolutionViewControllerDelegate {
                 )
             }
         }
-        
         view().tryCounterLabel.text = "Try № \(tryCounter)"
+    }
+    
+    init(compScore: Int) {
+        self.compScore = compScore
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError()
+    }
+}
+
+extension UserSolutionViewController: UserSolutionViewControllerDelegate {
+    func buttonAction() {
+        guard let userNumber = Int(view().numberGuessTV.text) else { return }
+        if userNumber == 0 || userNumber > 100 {
+            view().errorLabel.isHidden = false
+        } else {
+            view().errorLabel.isHidden = true
+            gameLogics(userNumber, compNumber)
+        }
     }
 }
 
@@ -100,6 +108,6 @@ extension UserSolutionViewController: UITextViewDelegate {
             return false
         }
         let newLength = currentCharacterCount + text.count - range.length
-        return newLength <= 3
+        return newLength <= 3 && text.containsValidCharacter
     }
 }

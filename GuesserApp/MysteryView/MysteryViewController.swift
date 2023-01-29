@@ -69,7 +69,7 @@ extension MysteryViewController: UITextViewDelegate {
             return false
         }
         let newLength = currentCharacterCount + text.count - range.length
-        return newLength <= 3
+        return newLength <= 3 && text.containsValidCharacter
     }
     
     func textViewDidChange(_ textView: UITextView) {
@@ -81,4 +81,5 @@ extension MysteryViewController: UITextViewDelegate {
             self.view().enterButton.isEnabled = false
         }
     }
+    
 }
