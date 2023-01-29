@@ -45,7 +45,7 @@ final class MysteryView: UIView {
     let errorLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "enter number [1:100]"
+        label.text = "Please enter number [1:100]"
         label.textColor = .systemRed
         label.isHidden = true
         return label

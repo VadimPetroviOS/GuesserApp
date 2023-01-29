@@ -13,6 +13,7 @@
 		7D211DC32985357E002C8063 /* UserSolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DC22985357E002C8063 /* UserSolutionView.swift */; };
 		7D211DC8298559A2002C8063 /* GameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DC7298559A2002C8063 /* GameResultViewController.swift */; };
 		7D211DCA29855C3C002C8063 /* GameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DC929855C3C002C8063 /* GameResultView.swift */; };
+		7D211DCD29865DF8002C8063 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D211DCC29865DF8002C8063 /* Extensions.swift */; };
 		7DD9DFDB298158DA00E3FD40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDA298158DA00E3FD40 /* AppDelegate.swift */; };
 		7DD9DFDD298158DA00E3FD40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDC298158DA00E3FD40 /* SceneDelegate.swift */; };
 		7DD9DFDF298158DA00E3FD40 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9DFDE298158DA00E3FD40 /* StartGameViewController.swift */; };
@@ -31,6 +32,7 @@
 		7D211DC22985357E002C8063 /* UserSolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSolutionView.swift; sourceTree = "<group>"; };
 		7D211DC7298559A2002C8063 /* GameResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultViewController.swift; sourceTree = "<group>"; };
 		7D211DC929855C3C002C8063 /* GameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultView.swift; sourceTree = "<group>"; };
+		7D211DCC29865DF8002C8063 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7DD9DFD7298158DA00E3FD40 /* GuesserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuesserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD9DFDA298158DA00E3FD40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD9DFDC298158DA00E3FD40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				7D211DC629855172002C8063 /* UserSolutionView */,
 				7DD9DFF2298159A500E3FD40 /* StartGameView */,
 				7DD9DFF329815CF100E3FD40 /* Constants.swift */,
+				7D211DCC29865DF8002C8063 /* Extensions.swift */,
 				7DD9DFEE298158F500E3FD40 /* Resources */,
 			);
 			path = GuesserApp;
@@ -233,6 +236,7 @@
 				7DD9DFDD298158DA00E3FD40 /* SceneDelegate.swift in Sources */,
 				7D211DBE29827499002C8063 /* CompSolutionView.swift in Sources */,
 				7DD9DFF12981599900E3FD40 /* StartGameView.swift in Sources */,
+				7D211DCD29865DF8002C8063 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

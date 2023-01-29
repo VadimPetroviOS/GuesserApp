@@ -28,7 +28,7 @@ struct Constants {
     }
     
     struct gameStatus {
-        static let win: String = "Yot Win"
+        static let win: String = "You Win"
         static let lose: String = "You Lose"
         static let draw: String = "It's a Draw"
     }
